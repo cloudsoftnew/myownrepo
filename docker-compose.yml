@@ -20,8 +20,8 @@ services:
     ports:
       - "5432:5432"
     environment:
-      - POSTGRES_PASSWORD=petclinic
-      - POSTGRES_USER=petclinic
-      - POSTGRES_DB=petclinic
+      - POSTGRES_PASSWORD=petcliniccloud
+      - POSTGRES_USER=petcliniccloud
+      - POSTGRES_DB=petcliniccloud
     profiles:
     - postgres
